@@ -82,25 +82,25 @@ WSGI_APPLICATION = 'webcertificado.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'd5biitd3tl02jl',
-#         'HOST':'ec2-3-223-213-207.compute-1.amazonaws.com',
-#         'USER':'ajhkvgwkrvpdqp',
-#         'PASSWORD':'7c73e5962ca6ee8c4ad064e7e3fe9ea0f14e944defa0b78b2ebb30b720343f79',
-#         'PORT':5432,
-
-#     }
-# }
-
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd35qq2cpsemtie',
+        'HOST':'ec2-23-23-151-191.compute-1.amazonaws.com',
+        'USER':'jqdqpilsdsdrrj',
+        'PASSWORD':'5f290d279c5d4894696a6e87dbd360862ceb3efd68c692c647216f7de2ed13d6',
+        'PORT':5432,
+
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 
