@@ -39,9 +39,10 @@
                         <div class="navbar-nav ml-auto">
                             <a class="nav-item nav-link active ts-scroll" href="#page-top">Inicio <span class="sr-only">(current)</span></a>
                             <a class="nav-item nav-link ts-scroll" href="#how-it-works">Como funciona</a>
+                            <a class="nav-item nav-link ts-scroll" href="#servicio">Servicio</a>
+
                             <a class="nav-item nav-link ts-scroll" href="#about-us">Nosotros</a>
                             <a class="nav-item nav-link ts-scroll" href="#pricing">Precios</a>
-                            <a class="nav-item nav-link ts-scroll" href="#our-team">Certificadores</a>
                             <a class="nav-item nav-link ts-scroll mr-2" href="#form-contact">Contacto</a>
                             <a class="ts-scroll btn btn-primary btn-sm m-1 px-3 ts-width__auto" href="#form-contact">Realiza tu consulta</a>
                         </div>
@@ -92,6 +93,7 @@
         <main id="ts-content">
 
             <!--HOW IT WORKS ****************************************************************************************-->
+            
             <section id="how-it-works" class="ts-block ts-xs-text-center pb-5">
                 <div class="container">
                     <div class="ts-title">
@@ -131,7 +133,7 @@
                                     <div class="ts-item-header">
                                         <figure class="icon">
                                             <span class="step" >2</span>
-                                            <div class="ts-circle__md" >
+                                            <div class="ts-circle__md"  data-bg-color="#ebf1fe">
                                                 <img src="{% static 'assets/img/icon-knobs.png' %}" alt="">
                                             </div>
                                         </figure>
@@ -157,7 +159,7 @@
                                     <div class="ts-item-header">
                                         <figure class="icon">
                                             <span class="step" >3</span>
-                                            <div class="ts-circle__md" >
+                                            <div class="ts-circle__md" data-bg-color="#ebf1fe" >
                                                 <img src="{% static 'assets/img/icon-heart.png' %}" alt="">
                                             </div>
                                         </figure>
@@ -165,7 +167,7 @@
                                     </div>
                                     <!--end ts-item-header-->
                                     <div class="ts-item-body">
-                                        <h4>Link de pago</h4>
+                                        <h4>Agendar revisión </h4>
                                         <p>
                                             In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
                                         </p>
@@ -182,6 +184,52 @@
                 </div>
                 <!--end container-->
             </section>
+            <section id="servicio" class="ts-block pb-5 mb-4">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>Puntos a inspeccionar</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row" style="">
+                        <div class="col-md-4">
+                            <div class="ts-story ts-separate-bg-element" data-animate="ts-fadeInUp" data-bg-color="rgba(0,0,0,.05)" data-bg-image="{% static 'assets/img/img-bw-man-phone.jpg' %}" data-bg-image-opacity=".1">
+                                <figure>10.05.2018</figure>
+                                <h3>Inspección cuerpo de la caldera</h3>
+                                <p>Descripción de prueba </p>
+                                <a href="#" class="btn btn-primary btn-sm">Contactar</a>
+                            </div>
+                            <!--end ts-story-->
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ts-story ts-separate-bg-element" data-animate="ts-fadeInUp" data-bg-color="rgba(0,0,0,.05)" data-bg-image="{% static 'assets/img/img-bw-man-phone.jpg' %}" data-bg-image-opacity=".1">
+                                <figure>10.05.2018</figure>
+                                <h3>Prueba aerostática e hidráulica</h3>
+                                <p>Descripción de prueba </p>
+                                <a href="#" class="btn btn-primary btn-sm">Contactar</a>
+                            </div>
+                            <!--end ts-story-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4">
+                            <div class="ts-story ts-separate-bg-element" data-animate="ts-fadeInUp" data-delay="0.1s" data-bg-color="rgba(0,0,0,.05)" data-bg-image="{% static 'assets/img/img-bw-man-phone.jpg' %}" data-bg-image-opacity=".1">
+                                <figure>23.04.2018</figure>
+                                <h3>Prueba acumulación de vapor</h3>
+                                <p>Descripción de prueba </p>
+                                <a href="#" class="btn btn-primary btn-sm">Contactar</a>
+                            </div>
+                            <!--end ts-story-->
+                        </div>
+                        <!--end col-md-4-->
+
+                       
+                        <!--end col-md-4-->
+                    </div>
+                    <!--end row-->
+
+                </div>
+                <!--end container-->
+            </section>
+            
             <!--END HOW IT WORKS ************************************************************************************-->
 
 
@@ -379,6 +427,88 @@
                         <!--end price-box col-md-4-->
                     </div>
                     <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <section id="contact" class="ts-separate-bg-element" data-bg-image="assets/img/bg-hand-mobile.jpg" data-bg-image-opacity=".1" data-bg-color="#12264f">
+                <div class="container">
+                    <div class="ts-box mb-0 p-5 ts-mt__n-10" data-animate="ts-fadeInUp">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3>Contáctanos</h3>
+                                <address>
+                                    <figure>
+                                        Las condes, Santiago, Chile
+                                    </figure>
+                                    <br>
+                                    <figure>
+                                        <div class="font-weight-bold">Email:</div>
+                                        <a href="#">contacto@certificacionescaldera.cl</a>
+                                    </figure>
+                                    <figure>
+                                        <div class="font-weight-bold">Teléfono:</div>
+                                        +569 9 9999 999
+                                    </figure>
+
+                                </address>
+                                <!--end address-->
+                            </div>
+                            <!--end col-md-4-->
+                            <div class="col-md-8">
+                                <h3>Formulario de contacto</h3>
+                                <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="assets/php/email.php">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-name">Nombre compelto *</label>
+                                                <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Nombre y apellido" required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-email">Email *</label>
+                                                <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Correo electrónico" required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-email">Ciudad</label>
+                                                <input type="text" class="form-control" id="form-contact-email" name="Ciudad" placeholder="Ciudad" required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form-contact-message">Ingrese la consulta  *</label>
+                                                <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Mensaje" required></textarea>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-12 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="form-group clearfix">
+                                        <button type="submit" class="btn btn-primary float-right" id="form-contact-submit">Enviar Consulta</button>
+                                    </div>
+                                    <!--end form-group -->
+                                    <div class="form-contact-status"></div>
+                                </form>
+                                <!--end form-contact -->
+                            </div>
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end ts-box-->
+                    <div class="text-center text-white py-4">
+                        <small>© 2022 Certificaciones de Caledras  Chile</small>
+                    </div>
                 </div>
                 <!--end container-->
             </section>
